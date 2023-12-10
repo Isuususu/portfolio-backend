@@ -10,8 +10,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@cloudinary/react": "^1.11.2",
-    "@cloudinary/url-gen": "^1.14.0",
     "@strapi/plugin-i18n": "4.15.5",
     "@strapi/plugin-users-permissions": "4.15.5",
     "@strapi/provider-upload-cloudinary": "^4.15.5",
@@ -19,10 +17,7 @@
     "better-sqlite3": "9.2.2",
     "pg": "^8.11.3",
     "pg-connection-string": "^2.6.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^5.3.4",
-    "styled-components": "^5.3.11"
+    "react": "^18.2.0"
   },
   "author": "A Strapi developer",
   "strapi": {
