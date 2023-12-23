@@ -1,12 +1,15 @@
 {
   "name": "my-strapi-project",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": "A Strapi developer",
+  "main": "index.js",
   "scripts": {
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -17,16 +20,16 @@
     "better-sqlite3": "9.2.2",
     "pg": "^8.11.3",
     "pg-connection-string": "^2.6.2",
-    "react": "^18.2.0"
-  },
-  "author": "A Strapi developer",
-  "strapi": {
-    "uuid": "6c161ebc-2270-4e1d-b38a-18a966c7fe86"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
   },
   "engines": {
     "node": "20.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "main": "index.js"
+  "strapi": {
+    "uuid": "6c161ebc-2270-4e1d-b38a-18a966c7fe86"
+  }
 }
